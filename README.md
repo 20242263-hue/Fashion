@@ -47,8 +47,8 @@
             <div class="col-6 col-md-4 col-lg-3">
                 <div class="card product-card">
                     <div class="image-wrapper">
-                        <img src="/FileForGitHub/HUMCOM1/FINALS/finals project/pictures/FIngersleeves.jpg" class="main-img" alt="product" />
-                        <img src="/FileForGitHub/HUMCOM1/FINALS/finals project/pictures/sleevescover.png" class="hover-img" alt="product worn" />
+                        <img src="FIngersleeves.jpg" class="main-img" alt="product" />
+                        <img src="sleevescover.png" class="hover-img" alt="product worn" />
                     </div>
                     <div class="card-body text-center">
                         <h5 class="card-title">FInger Sleeves</h5>
@@ -60,8 +60,8 @@
             <div class="col-6 col-md-4 col-lg-3">
                 <div class="card product-card">
                     <div class="image-wrapper">
-                        <img src="/pictures/Beanie.jpg" class="main-img" alt="product" />
-                        <img src="/pictures/Beaniecover.png" class="hover-img" alt="product worn" />
+                        <img src="Beanie.jpg" class="main-img" alt="product" />
+                        <img src="Beaniecover.png" class="hover-img" alt="product worn" />
                     </div>
                     <div class="card-body text-center">
                         <h5 class="card-title">Beanie</h5>
@@ -73,8 +73,8 @@
             <div class="col-6 col-md-4 col-lg-3">
                 <div class="card product-card">
                     <div class="image-wrapper">
-                        <img src="/pictures/TokyoShirt.jpg" class="main-img" alt="product" />
-                        <img src="/pictures/TokyoShirtCovered.jpg" class="hover-img" alt="product worn" />
+                        <img src="TokyoShirt.jpg" class="main-img" alt="product" />
+                        <img src="TokyoShirtCovered.jpg" class="hover-img" alt="product worn" />
                     </div>
                     <div class="card-body text-center">
                         <h5 class="card-title">Tokyo Shirt</h5>
@@ -89,8 +89,8 @@
     <div class="col-6 col-md-4 col-lg-3">
         <div class="card product-card">
             <div class="image-wrapper">
-                <img src="/pictures/4KingsJersey.jpg" class="main-img" alt="product" />
-                <img src="/pictures/4KingsJerseyCovered.jpg" class="hover-img" alt="product worn" />
+                <img src="4KingsJersey.jpg" class="main-img" alt="product" />
+                <img src="4KingsJerseyCovered.jpg" class="hover-img" alt="product worn" />
             </div>
             <div class="card-body text-center">
                 <h5 class="card-title">4 Kings Jersey</h5>
@@ -102,8 +102,8 @@
     <div class="col-6 col-md-4 col-lg-3">
         <div class="card product-card">
             <div class="image-wrapper">
-                <img src="/pictures/4KingsShirt.jpg" class="main-img" alt="product" />
-                <img src="/pictures/4KingsShirtCover.jpg" class="hover-img" alt="product worn" />
+                <img src="4KingsShirt.jpg" class="main-img" alt="product" />
+                <img src="4KingsShirtCover.jpg" class="hover-img" alt="product worn" />
             </div>
             <div class="card-body text-center">
                 <h5 class="card-title">4 Kings Shirt</h5>
@@ -115,8 +115,8 @@
     <div class="col-6 col-md-4 col-lg-3">
         <div class="card product-card">
             <div class="image-wrapper">
-                <img src="/pictures/4KingsRedShirt.jpg" class="main-img" alt="product" />
-                <img src="/pictures/4kingsredcover.png" class="hover-img" alt="product worn" />
+                <img src="4KingsRedShirt.jpg" class="main-img" alt="product" />
+                <img src="4kingsredcover.png" class="hover-img" alt="product worn" />
             </div>
             <div class="card-body text-center">
                 <h5 class="card-title">4 Kings Red Shirt</h5>
