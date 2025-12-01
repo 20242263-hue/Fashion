@@ -1,1 +1,201 @@
-# Fashion
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store Template</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- TOP TICKER BAR -->
+    <div id="tickerBar" class="ticker-bar">
+        <div class="ticker-track">
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+            <span>FOLLOW — SUBSCRIBE — LIKE —</span>
+        
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">TOKYO N KINGS</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PRODUCT GRID -->
+    <section id="products" class="container py-5">
+        <h2 class="fw-bold mb-4">TOKYO MERCH</h2>
+
+        <div class="row g-4">
+
+            <!-- PRODUCT CARD Finger Sleeves--> 
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card product-card">
+                    <div class="image-wrapper">
+                        <img src="/FileForGitHub/HUMCOM1/FINALS/finals project/pictures/FIngersleeves.jpg" class="main-img" alt="product" />
+                        <img src="/FileForGitHub/HUMCOM1/FINALS/finals project/pictures/sleevescover.png" class="hover-img" alt="product worn" />
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">FInger Sleeves</h5>
+                        <p class="card-text fw-bold">₱129</p>
+                        <button class="btn btn-dark w-100">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT CARD Beanie -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card product-card">
+                    <div class="image-wrapper">
+                        <img src="/pictures/Beanie.jpg" class="main-img" alt="product" />
+                        <img src="/pictures/Beaniecover.png" class="hover-img" alt="product worn" />
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Beanie</h5>
+                        <p class="card-text fw-bold">₱240</p>
+                        <button class="btn btn-dark w-100">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRODUCT CARD TokyoShirt-->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card product-card">
+                    <div class="image-wrapper">
+                        <img src="/pictures/TokyoShirt.jpg" class="main-img" alt="product" />
+                        <img src="/pictures/TokyoShirtCovered.jpg" class="hover-img" alt="product worn" />
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tokyo Shirt</h5>
+                        <p class="card-text fw-bold">₱300</p>
+                        <button class="btn btn-dark w-100">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <h2 class="fw-bold mb-4 mt-5">4 KINGS COLLABORATION MERCH</h2>
+
+<div class="row g-4">
+
+    <!-- PRODUCT CARD 4Kings Jersey -->
+    <div class="col-6 col-md-4 col-lg-3">
+        <div class="card product-card">
+            <div class="image-wrapper">
+                <img src="/pictures/4KingsJersey.jpg" class="main-img" alt="product" />
+                <img src="/pictures/4KingsJerseyCovered.jpg" class="hover-img" alt="product worn" />
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">4 Kings Jersey</h5>
+                <p class="card-text fw-bold">₱450</p>
+                <button class="btn btn-dark w-100">Buy</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCT CARD 4Kings shirt -->
+    <div class="col-6 col-md-4 col-lg-3">
+        <div class="card product-card">
+            <div class="image-wrapper">
+                <img src="/pictures/4KingsShirt.jpg" class="main-img" alt="product" />
+                <img src="/pictures/4KingsShirtCover.jpg" class="hover-img" alt="product worn" />
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">4 Kings Shirt</h5>
+                <p class="card-text fw-bold">₱350</p>
+                <button class="btn btn-dark w-100">Buy</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCT CARD 4Kings Red Shirt -->
+    <div class="col-6 col-md-4 col-lg-3">
+        <div class="card product-card">
+            <div class="image-wrapper">
+                <img src="/pictures/4KingsRedShirt.jpg" class="main-img" alt="product" />
+                <img src="/pictures/4kingsredcover.png" class="hover-img" alt="product worn" />
+            </div>
+            <div class="card-body text-center">
+                <h5 class="card-title">4 Kings Red Shirt</h5>
+                <p class="card-text fw-bold">₱500</p>
+                <button class="btn btn-dark w-100">Buy</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+    </section>
+
+    
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- LEFT -->
+            <div class="footer-col">
+                <h4>SITEMAP</h4>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+            </div>
+
+            <!-- CENTER -->
+            <div class="footer-col">
+                <h4>Socials</h4>
+                <a href="https://www.facebook.com/PH.TokyoGaming">Tokyo Gaming</a>
+                <a href="https://www.facebook.com/PH.TokyoGaming">Tokyo Gaming Community</a>
+                <a href="https://www.youtube.com/@tokyogamingph21">Tokyo Gaming Youtube Channel</a>
+                <a href="https://www.facebook.com/4KingsPHOfficial">4 Kings</a>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="footer-col">
+                <h4>SHOP NOW</h4>
+                <input type="email" placeholder="Email address..." />
+                <input type="text" placeholder="First name..." />
+                <input type="text" placeholder="Last name..." />
+                <button>Order</button>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
